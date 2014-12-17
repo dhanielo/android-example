@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="textLogin">Login:</string>
+   <string name="textSenha">Senha:</string>
+   <string name="login">Login</string>
+   <string name="voltar">Voltar</string>
+</resources>
