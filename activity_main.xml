@@ -9,31 +9,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-   
-   <EditText
-      android:id="@+id/editTextLogin"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentLeft="true"
-      android:layout_marginTop="5dp"
-      android:layout_marginLeft="82dp"
-      android:ems="10"
-	  android:text="@string/textLogin"
-      android:inputType="text" >
-   </EditText>
 
-   <EditText
-      android:id="@+id/editTextSenha"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentLeft="true"
-      android:layout_marginTop="20dp"
-      android:layout_marginLeft="82dp"
-      android:ems="10"
-	  android:text="@string/textSenha"
-      android:inputType="textPassword" />
-	  
-   <Button
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editTextLogin"
+        android:text="@string/textLogin"
+        android:singleLine="true"
+        android:inputType="textCapWords"/>
+
+
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editTextSenha"
+        android:hint="Password"
+		android:text="@string/textSenha"
+        android:password="true" />
+
+		
+	<Button
       android:id="@+id/button1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -43,3 +38,4 @@
       android:onClick="run"
       android:text="@string/login" />
 </RelativeLayout>
+
